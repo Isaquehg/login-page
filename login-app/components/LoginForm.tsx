@@ -23,6 +23,7 @@ const LoginForm: React.FC = () => {
   return (
     <div className={styles.container}>
       <h2 className={styles.title}>Login</h2>
+      {loginError && <p className={styles.alert}>Login failed! Please check your username and password.</p>}
       <form className={styles.form}>
         <div>
           <input

@@ -28,10 +28,12 @@ const RegisterForm: React.FC = () => {
   return (
     <div className={styles.container}>
       <h2 className={styles.title}>Register</h2>
+      {registrationError && <p className={styles.alert}>Fill all required fields!</p>}
       <form className={styles.form}>
         <div>
-          <label htmlFor="firstName">First Name</label>
           <input
+            className={styles.input}
+            placeholder="First Name"
             type="text"
             id="firstName"
             value={firstName}
@@ -39,8 +41,9 @@ const RegisterForm: React.FC = () => {
           />
         </div>
         <div>
-          <label htmlFor="lastName">Last Name</label>
           <input
+            className={styles.input}
+            placeholder="Last Name"
             type="text"
             id="lastName"
             value={lastName}
@@ -48,8 +51,9 @@ const RegisterForm: React.FC = () => {
           />
         </div>
         <div>
-          <label htmlFor="username">Username</label>
           <input
+            className={styles.input}
+            placeholder='Username'
             type="text"
             id="username"
             value={username}
@@ -57,8 +61,9 @@ const RegisterForm: React.FC = () => {
           />
         </div>
         <div>
-          <label htmlFor="password">Password</label>
           <input
+            className={styles.input}
+            placeholder="Password"
             type="password"
             id="password"
             value={password}

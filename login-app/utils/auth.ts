@@ -2,12 +2,6 @@
 export const register = (username: string, password: string): void => {
     const registeredUsers = getRegisteredUsers();
   
-    // Check if the username already exists
-    if (registeredUsers.some((user) => user.username === username)) {
-        console.error('Username already exists.');
-        return;
-    }
-  
     const newUser = { username, password };
     registeredUsers.push(newUser);
     setRegisteredUsers(registeredUsers);
