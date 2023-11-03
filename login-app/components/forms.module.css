@@ -1,15 +1,16 @@
-/* styles/minimalist.css */
-  .container {
+.container {
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(to bottom, #0077ff, #000000);
     border-radius: 20px;
-    padding: 50px;
+    padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     text-align: center;
-    width: 18em;
-    height: 20em;
-    margin-top: 6em;
-    margin-left: 29em;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1%;
+    justify-content: space-between;
+    flex-direction: column;
+    min-height:56vh;
+    max-width: 20em;
   }
 
   .title{
@@ -43,14 +44,15 @@
   }
   
   .button{
-    background: linear-gradient(to bottom, #0070f3, #48a1f9); /* Apply gradient background to the button */
+    background: linear-gradient(to bottom, #0070f3, #48a1f9); 
     color: #fff;
     cursor: pointer;
     transition: background 0.2s;
+    margin: 1%;
   }
   
   .button:hover {
-    background: linear-gradient(to bottom, #005bbf, #48a1f9); /* Gradient change on hover */
+    background: linear-gradient(to bottom, #005bbf, #48a1f9);
   }
   
   .a {
@@ -62,3 +64,9 @@
     text-decoration: underline;
   }
   
+.alert{
+  color: red;
+  font-size: 15px;
+  font-weight: 800;
+  text-align: center;
+}

@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #0077ff, #ffffff);
+    margin: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#registerContainer{
+    display: block;
+    justify-content: center;
+    width: 15em;
+}
+
+#registerContainer a{
+    width: 15em;
+    margin-left: 0.5em;
+}
+
+#registerContainer a button{
+    background: linear-gradient(to bottom, #0070f3, #48a1f9);
+    cursor: pointer;
+    color: #fff;
+    transition: background 0.2s;
+    margin: 1%;
+    border-radius: 20px;
+    font-size: 15px;
+    size: 20em;
+    padding: 3%;
+    border-style: none;
+    width: 15em;
+}
+#registerContainer button:hover{
+    background: linear-gradient(to bottom, #005bbf, #48a1f9);
+}
+
+header {
+    background-color: #333;
+    color: white; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 6.5%;
+    padding-left: 1.5%;
+}
+
+#title{
+    
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 5px; 
+    display:block;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1%;
+}
+footer div{
+    text-align: center;
+}
+  
+a{
+    text-decoration: none;
+    color: #0077ff;
+}
+
+#github{
+    font-size: 20px;
+    margin-right: 1%;
+}
+#github a{
+    color: #0077ff;
+}
