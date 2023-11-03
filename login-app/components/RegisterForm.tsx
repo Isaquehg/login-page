@@ -11,7 +11,8 @@ const RegisterForm: React.FC = () => {
   const [registrationError, setRegistrationError] = useState(false);
   const router = useRouter();
 
-  const handleRegister = () => {
+  const handleRegister = (event: React.FormEvent) => {
+    event.preventDefault(); // Prevent the default form submission behavior
     // Check if all required fields are filled
     if (firstName && lastName && username && password) {
       // If all required fields are filled, register the user
