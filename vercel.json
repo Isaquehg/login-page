@@ -1,18 +1,13 @@
 {
     "version": 2,
-    "name": "demo-login",
     "builds": [
       {
-        "src": "login-app/package.json",
+        "src": "login-page/login-app",
         "use": "@now/next"
       }
     ],
     "routes": [
-      {
-        "src": "/login-app/(.*)",
-        "dest": "/login-app/$1"
-      }
-    ],
-    "output": "out"
+      { "src": "/login-app/(.*)", "dest": "login-page/login-app/$1" }
+    ]
   }
   
