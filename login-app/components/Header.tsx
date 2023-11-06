@@ -5,11 +5,11 @@ const Header: React.FC = () => {
   return (
     <header>
       <div>
-        <h1>Inatel</h1>
+        <h2>Inatel</h2>
         <p>S206 - Software Quality</p>
       </div>
       <div>
-        <h1 id='title'>Registration Testing</h1>
+        <h1 id='title'>UI Testing</h1>
       </div>
       <div id='github'>
         <a href="https://github.com/Isaquehg/ui-testing">

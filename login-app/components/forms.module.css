@@ -9,13 +9,13 @@
     margin: 1%;
     justify-content: space-between;
     flex-direction: column;
-    min-height:56vh;
+    min-height:61vh;
     max-width: 20em;
   }
 
   .title{
     color: #fff;
-    font-size: 40px;
+    font-size: 2.5em;
     padding: 1%;
   }
   
