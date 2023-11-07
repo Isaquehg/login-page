@@ -1,6 +1,11 @@
 # Registration Website
-## Simple Next JS login application for Cypress UI web testing in [this repository](https://github.com/Isaquehg/ui-testing)
+## Next JS login page for Cypress UI web testing in [this repository](https://github.com/Isaquehg/ui-testing)
 
-### [Check this page!](https://demo-login-29qxahx14-isaquehg.vercel.app/)
+## [Check this page!](https://demo-login-29qxahx14-isaquehg.vercel.app/)
 
-<img src="./img/login.png" alt="GitHub Logo">
+<div>
+    <img src="./img/login.png" alt="GitHub Logo" width=50% height=50%>
+    <img src="./img/register.png" alt="GitHub Logo" width=50% height=50%>
+    <img src="./img/success.png" alt="GitHub Logo" width=50% height=50%>
+</div>
+
